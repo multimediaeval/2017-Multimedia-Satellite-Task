@@ -8,11 +8,11 @@ To align with recent events, the challenge focuses on flooding events, which con
 
 * **Disaster Image Retrieval from Social Media [DIRSM]**<br>
 The goal of this task is to retrieve all images which show direct evidence of a flooding event from social media streams, independently of a particular event. The objective is to design a system/algorithm that given any collection of multimedia images and their metadata (e.g., YFCC100M, Twitter, Wikipedia, news articles) is able to identify those images that are related to a flooding event. Please note, that only those images which convey an evidence of a flooding event will be considered as True Positives. Specifically, **we define images showing „unexpected high water levels in industrial, residential, commercial and agricultural areas“ as images providing evidence of a flooding event**. The main challenges of this task are the proper discrimination of the water level in different areas (e.g., images showing a lake vs. showing high water at a street) as well as the consideration of different types of flooding events (e.g., coastal flooding, river flooding, pluvial flooding). 
-<br><div align="center" markdown="1">![alt tag](Preview_DIRSM.png)</div>
+![alt tag](Preview_DIRSM.png)
 
 * **Flood-Detection in Satellite Images [FDSI]**<br>
 The aim of this task is to develop a method/algorithm that is able to identify regions affected by a flooding in satellite images. Participants get image patches of satellite images which cover a wide spatial area for multiple instances of flooding events. The satellite image patches are provided by the organizers of the task and are recorded during (or shortly after) the flooding event. For a list of flooding events at different locations, participants report for given image patches segmentation masks of the flooded area. The percentage of correctly labeled pixels will be evaluated.
-<br><p align="center" markdown="1">![alt tag](Preview_FDSI.png)</p>
+![alt tag](Preview_FDSI.png)
 
 
 ## What data is provided?
