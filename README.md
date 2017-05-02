@@ -24,7 +24,7 @@ For the FDSI task, we will provide satellite image patches of flooded regions re
 
 ## How is the performance measured?
 
-The images for the DIRSM task are to be manually annotated with the two class labels (showing evidence/showing no evidence of a flooding event) by human assessors. The correctness of retrieved images will be evaluated with the metric Average Precision at X (AP@X) at various cutoffs, X={50,100, 200, 300, 400, 500}. The metric measures the number of relevant images among the top X retrieved results and takes the rank into consideration.
+The images for the DIRSM task have been manually annotated with the two class labels (showing evidence/showing no evidence of a flooding event) by human assessors. The correctness of retrieved images will be evaluated with the metric Average Precision at X (AP@X) at various cutoffs, X={50,100, 200, 300, 400, 500}. The metric measures the number of relevant images among the top X retrieved results and takes the rank into consideration.
 
 The segmentation masks of flooded areas in the satellite images for the FDSI task have been extracted by human assessors. The official evaluation metric for the generated segmentation masks of flooded areas in the satellite image patches is the Jaccard Index, commonly known as the PASCAL VOC intersection-over-union metric: 
 
